@@ -1,0 +1,73 @@
+{
+    "categorical_options": {
+        "Married": [
+            "No",
+            "Yes"
+        ],
+        "Internet Service": [
+            "No",
+            "Yes"
+        ],
+        "Internet Type": [
+            "Cable",
+            "DSL",
+            "Fiber Optic",
+            "No Internet Service"
+        ],
+        "Online Security": [
+            "No",
+            "No Internet Service",
+            "Yes"
+        ],
+        "Online Backup": [
+            "No",
+            "No Internet Service",
+            "Yes"
+        ],
+        "Device Protection Plan": [
+            "No",
+            "No Internet Service",
+            "Yes"
+        ],
+        "Premium Tech Support": [
+            "No",
+            "No Internet Service",
+            "Yes"
+        ],
+        "Contract": [
+            "Month-to-Month",
+            "One Year",
+            "Two Year"
+        ],
+        "Paperless Billing": [
+            "No",
+            "Yes"
+        ],
+        "Payment Method": [
+            "Bank Withdrawal",
+            "Credit Card",
+            "Mailed Check"
+        ]
+    },
+    "numerical_defaults": {
+        "Age": 46.0,
+        "Number of Dependents": 0.0,
+        "Number of Referrals": 0.0,
+        "Tenure in Months": 33.0,
+        "Monthly Charge": 71.45
+    },
+    "numerical_min": {
+        "Age": 19.0,
+        "Number of Dependents": 0.0,
+        "Number of Referrals": 0.0,
+        "Tenure in Months": 1.0,
+        "Monthly Charge": -10.0
+    },
+    "numerical_max": {
+        "Age": 80.0,
+        "Number of Dependents": 9.0,
+        "Number of Referrals": 11.0,
+        "Tenure in Months": 72.0,
+        "Monthly Charge": 118.75
+    }
+}
