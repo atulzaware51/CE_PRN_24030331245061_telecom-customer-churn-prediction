@@ -1,25 +1,4 @@
-Set-Location "C:\Users\Asus\Documents\Customer_Churn_ML"
 
-@'
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.ipynb_checkpoints/
-.env
-.env.*
-!.env.example
-.streamlit/secrets.toml
-.DS_Store
-Thumbs.db
-*.log
-*.tmp
-'@ | Set-Content ".gitignore"
-
-@'
 # Telecom Customer Churn Prediction and Retention Recommendation System Using Machine Learning
 
 ## 1. Project Overview
